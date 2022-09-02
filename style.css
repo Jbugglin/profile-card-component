@@ -26,6 +26,7 @@ body {
 }
 
 main {
+    max-width: 80vw;
     height: fit-content;
     border-radius: 15px;
     display: flex;
@@ -36,6 +37,7 @@ main {
 
 #card-top-pattern {
     border-radius: 15px 15px 0px 0px;
+    width: 100%;
 }
 
 #user-profile-image {
