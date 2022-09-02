@@ -26,7 +26,8 @@ body {
 }
 
 main {
-    max-width: 80vw;
+    width: 325px;
+    height: 325px;
     height: fit-content;
     border-radius: 15px;
     display: flex;
