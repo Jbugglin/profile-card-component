@@ -23,9 +23,27 @@ body {
     align-items: center;
     background-color: var(--primary-dark-cyan);
     position: relative;
+    overflow: hidden;
+}
+
+#bg-pattern-top {
+    z-index: 0;
+    position: absolute;
+    transform: scale(75%);
+    top: -60%;
+    left: -170%;
+}
+
+#bg-pattern-bottom {
+    z-index: 0;
+    position: absolute;
+    transform: scale(75%);
+    bottom: -60%;
+    right: -170%;
 }
 
 main {
+    z-index: 1;
     width: 325px;
     height: 325px;
     height: fit-content;
