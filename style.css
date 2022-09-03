@@ -137,3 +137,23 @@ footer {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+
+/* Media queries for desktop layout. */
+
+@media screen and (min-width: 376px) {
+    #bg-pattern-top {
+        z-index: 0;
+        position: absolute;
+        transform: scale(100%);
+        top: -60%;
+        left: -20%;
+    }
+    #bg-pattern-bottom {
+        z-index: 0;
+        position: absolute;
+        transform: scale(100%);
+        bottom: -75%;
+        right: -15%;
+    }
+}
