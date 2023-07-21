@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link rel="stylesheet" href="styles.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Profile card component</title>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+    <main>
+        <div class="main-card-head"><img src="./images/bg-pattern-card.svg" alt="card pattern"></div>
+        <div class="main-card-avatar"><img src="./images/image-victor.jpg" alt="user-avatar"></div>
 
-  80K
-  Followers
+        <div class="user-information">
+            <div class="user-name-age">
+                <div class="user-name">Victor Crest</div>
+                <div class="user-age">26</div>
+            </div>
+            <div class="user-location">London</div>
+        </div>
+        <hr>
 
-  803K
-  Likes
+        <div class="user-stats">
+            <div class="user-followers-count">
+                <div class="followers-stat">80K</div>
+                <div class="stat-tag">Followers</div>
+            </div>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+            <div class="user-likes-count">
+                <div class="likes-stat">803K</div>
+                <div class="stat-tag">Likes</div>
+            </div>
+
+            <div class="user-photo-count">
+                <div class="photos-stat">1.4K</div>
+                <div class="stat-tag">Photos</div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
+    </footer>
 </body>
+
 </html>
