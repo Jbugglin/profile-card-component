@@ -15,6 +15,8 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
 }
 
 body {
@@ -39,6 +41,7 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 1em;
+    z-index: 2;
 }
 
 .main-card-head img {
@@ -50,20 +53,40 @@ main {
     border: 5px solid white;
     border-radius: 50%;
     translate: 0% -50%;
+    margin-bottom: 1.25em;
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 1em;
+    font-weight: 700;
+    color: black;
+    margin-right: 0.25em;
+}
+
+.user-age {
+    font-weight: 400;
+    margin-left: 0.25em;
+}
+
+.user-location {
+    font-weight: 400;
+    font-size: 0.75em;
+    color: var(--pri-dark-grayish-blue);
+    margin-top: 0.625em;
 }
 
 .user-information {
     text-align: center;
+    position: absolute;
+    translate: 0% 75%;
+    margin: 1em 0em 0em 0em;
 }
 
 .user-name-age {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--pri-dark-grayish-blue);
 }
 
 hr {
@@ -80,6 +103,19 @@ hr {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    padding: 1.125em;
+}
+
+.num-stat {
+    font-weight: 700;
+    font-size: 1em;
+    padding: 0.25em;
+}
+
+.stat-tag {
+    font-weight: 400;
+    font-size: 0.625em;
+    color: var(--pri-dark-grayish-blue);
 }
 
 footer {
