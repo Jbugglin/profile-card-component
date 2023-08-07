@@ -43,6 +43,7 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 0.75em;
+    box-shadow: hsl(185, 69%, 37%) 0.5em 0.5em 1.25em;
 }
 
 .main-card-head img {
