@@ -16,7 +16,6 @@
 html {
     font-size: 62.5%;
     font-family: 'Kumbh Sans', sans-serif;
-    position: relative;
 }
 
 body {
@@ -26,28 +25,29 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    position: relative;
     background-color: var(--pri-dark-cyan);
-    background-image: url(./images/bg-pattern-bottom.svg);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: top -150px left -150px, bottom -100px right -200px;
+    background-size: 100%;
+    background-repeat: no-repeat, no-repeat;
     font-size: 1.8rem;
 }
 
 main {
     background-color: white;
     width: 85dvw;
+    max-width: 350px;
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 1em;
-    z-index: 2;
+    border-radius: 0.75em;
 }
 
 .main-card-head img {
     width: 100%;
-    border-radius: 1em 1em 0em 0em;
+    border-radius: 0.75em 0.75em 0em 0em;
 }
 
 .main-card-avatar img {
@@ -131,4 +131,11 @@ footer {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        background-position: top -400px left -215px, bottom -500px right -150px;
+        background-size: 60%;
+    }
 }
