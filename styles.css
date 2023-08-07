@@ -29,6 +29,7 @@ body {
     overflow: hidden;
     position: relative;
     background-color: var(--pri-dark-cyan);
+    background-image: url(./images/bg-pattern-bottom.svg);
     font-size: 1.8rem;
 }
 
