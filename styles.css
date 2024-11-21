@@ -95,8 +95,7 @@ hr {
     width: 100%;
     height: 0.5px;
     border-width: 0;
-    color: var(--neut-dark-gray);
-    background-color: var(--neut-dark-gray);
+    background-color: hsl(0, 0%, 77%);
 }
 
 .user-stats {
@@ -112,12 +111,14 @@ hr {
     font-weight: 700;
     font-size: 1em;
     padding: 0.25em;
+    letter-spacing: 1px;
 }
 
 .stat-tag {
     font-weight: 400;
     font-size: 0.625em;
     color: var(--pri-dark-grayish-blue);
+    letter-spacing: 1px;
 }
 
 footer {
